@@ -2,7 +2,7 @@
 pragma solidity =0.5.16;
 
 import './interfaces/IShibaERC20.sol';
-import './libraries/SafeMath.sol';
+import './libs/SafeMath.sol';
 
 contract ShibaERC20 is IShibaERC20 {
     using SafeMath for uint;
